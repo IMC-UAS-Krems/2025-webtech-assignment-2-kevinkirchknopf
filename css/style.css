@@ -1,0 +1,83 @@
+
+body {
+  background-color: #f8f9fa;
+}
+
+h5 {
+  font-weight: 600;
+}
+
+
+#products .card {
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#products .card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+#products .card-img-top {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  height: 180px;    
+  object-fit: cover;
+}
+
+#products .fw-bold {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+
+.donate-btn {
+  width: 100%;
+  border-radius: 50px;
+}
+
+
+#checkout {
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+
+#cartItems .list-group-item {
+  border: none;
+  padding: 0.6rem 0.75rem;
+}
+
+#cartItems .remove-btn {
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  line-height: 1;
+  padding: 0;
+}
+
+
+#cartTotal {
+  font-size: 1.2rem;
+}
+
+
+form .form-control,
+form .form-select {
+  border-radius: 10px;
+}
+
+form .form-control:focus,
+form .form-select:focus {
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
+
+
+form button[type="submit"] {
+  border-radius: 50px;
+  font-weight: 600;
+}
+
+
